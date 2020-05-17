@@ -5,9 +5,5 @@
        <classes>
            <class name="com.epam.pageobject.test.LoginTest"/>
        </classes>
-<!--        <packages>-->
-<!--            <package name="com.epam.pageobject.test">-->
-<!--            </package>-->
-<!--        </packages>-->
     </test>
 </suite>
