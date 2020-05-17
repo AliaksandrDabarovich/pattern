@@ -1,7 +1,9 @@
 package com.epam.pageobject.test;
 
+import com.epam.pageobject.driver.DriverSingleton;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
@@ -19,24 +21,17 @@ public class BaseTest {
     protected String webUrl = "http://mail.ru";
 
 
+
     @BeforeClass
     public void setUp() {
 
-        DesiredCapabilities capabilities = DesiredCapabilities.firefox();
-        capabilities.setPlatform(Platform.WINDOWS);
-        capabilities.setBrowserName("firefox");
-        try {
-            driver = new RemoteWebDriver(new URL(hubUrl), capabilities);
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
-        }
+        driver = DriverSingleton.getDriver();
         driver.get(webUrl);
     }
 
-    @AfterClass
+    @AfterClass (alwaysRun = true)
     public void tearDown() {
-        driver.quit();
-        driver = null;
+        DriverSingleton.closeDriver();
     }
 
 }
