@@ -15,10 +15,10 @@ import java.util.NoSuchElementException;
 public abstract class AbstractPage {
     protected WebDriver driver;
     protected final int WAIT_TIMEOUT_SECONDS = 10;
-    protected final String EMAIL = "aliaksandr.yarkiy@mail.ru";
+//    protected final String EMAIL = "aliaksandr.yarkiy@mail.ru";
     protected final String SUBJECT = "WebDriver";
     protected final String BODY = "Text for test";
-    protected final String PASSWORD = "obuchenie2015";
+//    protected final String PASSWORD = "obuchenie2015";
 
 
     protected AbstractPage(WebDriver driver) {
@@ -76,9 +76,9 @@ public abstract class AbstractPage {
         action.click(element).sendKeys(string).perform();
     }
 
-    public String getEmail() {
-        return EMAIL;
-    }
+//    public String getEmail() {
+//        return EMAIL;
+//    }
 
     public String getSubject() {
         return SUBJECT;
@@ -88,9 +88,9 @@ public abstract class AbstractPage {
         return BODY;
     }
 
-    public String getPassword() {
-        return PASSWORD;
-    }
+//    public String getPassword() {
+//        return PASSWORD;
+//    }
 
 
 }

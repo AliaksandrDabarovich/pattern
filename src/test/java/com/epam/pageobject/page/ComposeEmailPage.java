@@ -1,6 +1,7 @@
 package com.epam.pageobject.page;
 
 
+import com.epam.pageobject.model.User;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -22,12 +23,12 @@ public class ComposeEmailPage extends AbstractPage {
         super(driver);
     }
 
-    public EmailPage composeEmail() {
+    public EmailPage composeEmail(User user) {
 
         waitElement(toField);
-        toField.sendKeys(EMAIL);
+        toField.sendKeys(user.getUsername());
         waitElement(subjectField);
-        subjectField.sendKeys(SUBJECT);
+        subjectField.sendKeys(user.getPassword());
         waitElement(bodyField);
         performActionSendkeys(driver, bodyField, BODY);
         saveButton.click();
