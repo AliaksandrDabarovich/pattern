@@ -28,7 +28,7 @@ public class ComposeEmailPage extends AbstractPage {
         waitElement(toField);
         toField.sendKeys(user.getUsername());
         waitElement(subjectField);
-        subjectField.sendKeys(user.getPassword());
+        subjectField.sendKeys(SUBJECT);
         waitElement(bodyField);
         performActionSendkeys(driver, bodyField, BODY);
         saveButton.click();

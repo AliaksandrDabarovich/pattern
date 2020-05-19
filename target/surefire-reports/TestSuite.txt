@@ -1,8 +1,82 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.562 s <<< FAILURE! - in TestSuite
-login(com.epam.pageobject.test.LoginTest)  Time elapsed: 3.765 s  <<< FAILURE!
-java.lang.AssertionError: User is not logged in expected [false] but found [true]
-	at com.epam.pageobject.test.LoginTest.login(LoginTest.java:17)
+Tests run: 7, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 88.594 s <<< FAILURE! - in TestSuite
+verifyBodyFieldInDraft(com.epam.pageobject.test.BodyFieldDraftTest)  Time elapsed: 5.805 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='Закрыть' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']"}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW4406', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ALIAKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65281}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6827d0af2bb94c885fa0d13972bc1628
+*** Element info: {Using=xpath, value=//button[@title='Закрыть' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']}
+	at com.epam.pageobject.test.BodyFieldDraftTest.verifyBodyFieldInDraft(BodyFieldDraftTest.java:16)
+
+saveToDraft(com.epam.pageobject.test.SavingDraftTest)  Time elapsed: 5.654 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='Закрыть' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']"}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW4406', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ALIAKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65500}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d7c71e5524dc5745f8f35876d6a7732a
+*** Element info: {Using=xpath, value=//button[@title='Закрыть' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']}
+	at com.epam.pageobject.test.SavingDraftTest.saveToDraft(SavingDraftTest.java:21)
+
+sendDraft(com.epam.pageobject.test.SendDraftTest)  Time elapsed: 5.517 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='Закрыть' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']"}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW4406', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ALIAKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49226}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e467e713335abb27daaa5c8c07705d6a
+*** Element info: {Using=xpath, value=//button[@title='Закрыть' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']}
+	at com.epam.pageobject.test.SendDraftTest.sendDraft(SendDraftTest.java:16)
+
+deliverEmail(com.epam.pageobject.test.SendEmailTest)  Time elapsed: 5.821 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='Закрыть' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']"}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW4406', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ALIAKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49333}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 88caa2a4172ec0780a4e2cf81c2f9556
+*** Element info: {Using=xpath, value=//button[@title='Закрыть' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']}
+	at com.epam.pageobject.test.SendEmailTest.deliverEmail(SendEmailTest.java:16)
+
+verifySubjectFieldInDraft(com.epam.pageobject.test.SubjectFieldDraftTest)  Time elapsed: 5.861 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='Закрыть' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']"}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW4406', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ALIAKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49442}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1e6a94ac3b85e6f91d5846778a698249
+*** Element info: {Using=xpath, value=//button[@title='Закрыть' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']}
+	at com.epam.pageobject.test.SubjectFieldDraftTest.verifySubjectFieldInDraft(SubjectFieldDraftTest.java:17)
+
+verifyToFieldInDraft(com.epam.pageobject.test.ToFieldInDraftTest)  Time elapsed: 5.761 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='Закрыть' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']"}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW4406', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ALIAKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49547}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 46b52377c28f95dd9e15ca550e2ea10a
+*** Element info: {Using=xpath, value=//button[@title='Закрыть' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']}
+	at com.epam.pageobject.test.ToFieldInDraftTest.verifyToFieldInDraft(ToFieldInDraftTest.java:17)
 
