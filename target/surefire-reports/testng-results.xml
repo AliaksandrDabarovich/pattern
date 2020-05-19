@@ -2,62 +2,62 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Smoke Test Suite" duration-ms="56379" started-at="2020-05-19T23:59:11 MSK" finished-at="2020-05-20T00:00:07 MSK">
+  <suite name="Smoke Test Suite" duration-ms="56687" started-at="2020-05-20T00:08:13 MSK" finished-at="2020-05-20T00:09:10 MSK">
     <groups>
     </groups>
-    <test name="Smoke" duration-ms="56379" started-at="2020-05-19T23:59:11 MSK" finished-at="2020-05-20T00:00:07 MSK">
+    <test name="Smoke" duration-ms="56687" started-at="2020-05-20T00:08:13 MSK" finished-at="2020-05-20T00:09:10 MSK">
       <class name="com.epam.pageobject.test.SavingDraftTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.pageobject.test.SavingDraftTest@6536e911]" name="setUp" is-config="true" duration-ms="6364" started-at="2020-05-19T23:59:23 MSK" finished-at="2020-05-19T23:59:29 MSK">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.pageobject.test.SavingDraftTest@6536e911]" name="setUp" is-config="true" duration-ms="6173" started-at="2020-05-20T00:08:25 MSK" finished-at="2020-05-20T00:08:31 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="saveToDraft()[pri:0, instance:com.epam.pageobject.test.SavingDraftTest@6536e911]" name="saveToDraft" duration-ms="6159" started-at="2020-05-19T23:59:29 MSK" finished-at="2020-05-19T23:59:35 MSK">
+        <test-method status="PASS" signature="saveToDraft()[pri:0, instance:com.epam.pageobject.test.SavingDraftTest@6536e911]" name="saveToDraft" duration-ms="6807" started-at="2020-05-20T00:08:31 MSK" finished-at="2020-05-20T00:08:38 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- saveToDraft -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.pageobject.test.SavingDraftTest@6536e911]" name="tearDown" is-config="true" duration-ms="621" started-at="2020-05-19T23:59:35 MSK" finished-at="2020-05-19T23:59:36 MSK">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.pageobject.test.SavingDraftTest@6536e911]" name="tearDown" is-config="true" duration-ms="614" started-at="2020-05-20T00:08:38 MSK" finished-at="2020-05-20T00:08:38 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.epam.pageobject.test.SavingDraftTest -->
       <class name="com.epam.pageobject.test.SendEmailTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.pageobject.test.SendEmailTest@18eed359]" name="setUp" is-config="true" duration-ms="6135" started-at="2020-05-19T23:59:50 MSK" finished-at="2020-05-19T23:59:56 MSK">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.pageobject.test.SendEmailTest@18eed359]" name="setUp" is-config="true" duration-ms="6241" started-at="2020-05-20T00:08:53 MSK" finished-at="2020-05-20T00:08:59 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="deliverEmail()[pri:0, instance:com.epam.pageobject.test.SendEmailTest@18eed359]" name="deliverEmail" duration-ms="10493" started-at="2020-05-19T23:59:56 MSK" finished-at="2020-05-20T00:00:07 MSK">
+        <test-method status="PASS" signature="deliverEmail()[pri:0, instance:com.epam.pageobject.test.SendEmailTest@18eed359]" name="deliverEmail" duration-ms="9853" started-at="2020-05-20T00:08:59 MSK" finished-at="2020-05-20T00:09:09 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deliverEmail -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.pageobject.test.SendEmailTest@18eed359]" name="tearDown" is-config="true" duration-ms="632" started-at="2020-05-20T00:00:07 MSK" finished-at="2020-05-20T00:00:07 MSK">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.pageobject.test.SendEmailTest@18eed359]" name="tearDown" is-config="true" duration-ms="636" started-at="2020-05-20T00:09:09 MSK" finished-at="2020-05-20T00:09:10 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.epam.pageobject.test.SendEmailTest -->
       <class name="com.epam.pageobject.test.LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.pageobject.test.LoginTest@6b09bb57]" name="setUp" is-config="true" duration-ms="7200" started-at="2020-05-19T23:59:11 MSK" finished-at="2020-05-19T23:59:18 MSK">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.pageobject.test.LoginTest@6b09bb57]" name="setUp" is-config="true" duration-ms="7258" started-at="2020-05-20T00:08:13 MSK" finished-at="2020-05-20T00:08:20 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.epam.pageobject.test.LoginTest@6b09bb57]" name="login" duration-ms="3745" started-at="2020-05-19T23:59:18 MSK" finished-at="2020-05-19T23:59:22 MSK">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.epam.pageobject.test.LoginTest@6b09bb57]" name="login" duration-ms="3569" started-at="2020-05-20T00:08:20 MSK" finished-at="2020-05-20T00:08:24 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.pageobject.test.LoginTest@6b09bb57]" name="tearDown" is-config="true" duration-ms="628" started-at="2020-05-19T23:59:22 MSK" finished-at="2020-05-19T23:59:23 MSK">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.pageobject.test.LoginTest@6b09bb57]" name="tearDown" is-config="true" duration-ms="633" started-at="2020-05-20T00:08:24 MSK" finished-at="2020-05-20T00:08:25 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.epam.pageobject.test.LoginTest -->
       <class name="com.epam.pageobject.test.SendDraftTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.pageobject.test.SendDraftTest@520a3426]" name="setUp" is-config="true" duration-ms="6224" started-at="2020-05-19T23:59:36 MSK" finished-at="2020-05-19T23:59:42 MSK">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.pageobject.test.SendDraftTest@520a3426]" name="setUp" is-config="true" duration-ms="6302" started-at="2020-05-20T00:08:38 MSK" finished-at="2020-05-20T00:08:44 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="sendDraft()[pri:0, instance:com.epam.pageobject.test.SendDraftTest@520a3426]" name="sendDraft" duration-ms="7519" started-at="2020-05-19T23:59:42 MSK" finished-at="2020-05-19T23:59:50 MSK">
+        <test-method status="PASS" signature="sendDraft()[pri:0, instance:com.epam.pageobject.test.SendDraftTest@520a3426]" name="sendDraft" duration-ms="7945" started-at="2020-05-20T00:08:44 MSK" finished-at="2020-05-20T00:08:52 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendDraft -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.pageobject.test.SendDraftTest@520a3426]" name="tearDown" is-config="true" duration-ms="633" started-at="2020-05-19T23:59:50 MSK" finished-at="2020-05-19T23:59:50 MSK">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.pageobject.test.SendDraftTest@520a3426]" name="tearDown" is-config="true" duration-ms="633" started-at="2020-05-20T00:08:52 MSK" finished-at="2020-05-20T00:08:53 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

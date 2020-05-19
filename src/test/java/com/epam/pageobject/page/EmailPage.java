@@ -9,7 +9,7 @@ public class EmailPage extends AbstractPage {
 
     @FindBy(xpath = "//a[@href='/sent/']")
     private WebElement sentButton;
-    @FindBy(xpath = "//*[contains(@class, 'compose-button compose-button_white compose-button_base')]")
+    @FindBy(xpath = "//a[contains(@class, 'compose-button')]")
     private WebElement composeButton;
     @FindBy(xpath = "//a[@href='/drafts/']")
     private WebElement draftsButton;
