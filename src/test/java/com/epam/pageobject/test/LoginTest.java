@@ -14,7 +14,7 @@ public class LoginTest extends BaseTest {
         User testUser = UserCreator.withCredentialsFromProperty();
         EmailLoginPage emailLoginPage = new EmailLoginPage(driver);
         EmailPage emailPage = emailLoginPage.inputCredentials(testUser);
-        Assert.assertTrue(emailPage.getSentButton() != null, "User is not logged in");
+        Assert.assertFalse(emailPage.getSentButton() != null, "User is not logged in");
     }
 
 }

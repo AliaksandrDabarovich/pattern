@@ -7,11 +7,11 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.ITestListener;
-
 import java.io.File;
 import java.io.IOException;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
+
 
 public class TestListener implements ITestListener {
     private Logger log = LogManager.getRootLogger();
@@ -21,7 +21,7 @@ public class TestListener implements ITestListener {
     public void onTestSuccess(ITestListener iTestListener){
 
     }
-    public void onTestFailure(ITestListener iTestListener){
+    public void onTestFailure (ITestListener iTestListener){
         saveScreenshot();
     }
     public void onTestSkipped(ITestListener iTestListener){
@@ -36,16 +36,18 @@ public class TestListener implements ITestListener {
     public void onFinish(ITestListener iTestListener){
 
     }
-    public void saveScreenshot(){
+    private void saveScreenshot(){
         File screenCapture = ((TakesScreenshot) DriverSingleton.getDriver())
                 .getScreenshotAs(OutputType.FILE);
         try{
             FileUtils.copyFile(screenCapture, new File (
                     ".//target/screenshots/"
-                    + getCurrentTimeAsString() +
+                            + getCurrentTimeAsString() +
                             ".png"));
         } catch (IOException e) {
             log.error("Failed to save screenshot: "+ e.getLocalizedMessage());
+            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 

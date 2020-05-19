@@ -15,10 +15,9 @@ import java.util.NoSuchElementException;
 public abstract class AbstractPage {
     protected WebDriver driver;
     protected final int WAIT_TIMEOUT_SECONDS = 10;
-//    protected final String EMAIL = "aliaksandr.yarkiy@mail.ru";
     protected final String SUBJECT = "WebDriver";
     protected final String BODY = "Text for test";
-//    protected final String PASSWORD = "obuchenie2015";
+
 
 
     protected AbstractPage(WebDriver driver) {
@@ -44,8 +43,6 @@ public abstract class AbstractPage {
         return new WebDriverWait(driver, WAIT_TIMEOUT_SECONDS)
                 .until(ExpectedConditions.elementToBeClickable(webElement));
 
-//        return new WebDriverWait(driver, WAIT_TIMEOUT_SECONDS)
-//                .until(ExpectedConditions.elementToBeClickable(by));
     }
 
     protected WebElement waitTillElementClickable(WebElement element) {
