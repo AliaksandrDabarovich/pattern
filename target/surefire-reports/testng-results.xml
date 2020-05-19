@@ -1,561 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="6" ignored="0" total="7" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="87422" started-at="2020-05-19T23:17:48 MSK" finished-at="2020-05-19T23:19:15 MSK">
+  <suite name="Smoke Test Suite" duration-ms="56379" started-at="2020-05-19T23:59:11 MSK" finished-at="2020-05-20T00:00:07 MSK">
     <groups>
     </groups>
-    <test name="C:/git/pageobject/src/main/resources" duration-ms="87422" started-at="2020-05-19T23:17:48 MSK" finished-at="2020-05-19T23:19:15 MSK">
+    <test name="Smoke" duration-ms="56379" started-at="2020-05-19T23:59:11 MSK" finished-at="2020-05-20T00:00:07 MSK">
       <class name="com.epam.pageobject.test.SavingDraftTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.pageobject.test.SavingDraftTest@369f73a2]" name="setUp" is-config="true" duration-ms="6108" started-at="2020-05-19T23:18:13 MSK" finished-at="2020-05-19T23:18:19 MSK">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.pageobject.test.SavingDraftTest@6536e911]" name="setUp" is-config="true" duration-ms="6364" started-at="2020-05-19T23:59:23 MSK" finished-at="2020-05-19T23:59:29 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="saveToDraft()[pri:0, instance:com.epam.pageobject.test.SavingDraftTest@369f73a2]" name="saveToDraft" duration-ms="5653" started-at="2020-05-19T23:18:19 MSK" finished-at="2020-05-19T23:18:24 MSK">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']"}
-  (Session info: chrome=81.0.4044.138)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EPBYMINW4406', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ALIAKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65500}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d7c71e5524dc5745f8f35876d6a7732a
-*** Element info: {Using=xpath, value=//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']"}
-  (Session info: chrome=81.0.4044.138)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EPBYMINW4406', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ALIAKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65500}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d7c71e5524dc5745f8f35876d6a7732a
-*** Element info: {Using=xpath, value=//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy23.click(Unknown Source)
-at com.epam.pageobject.page.ComposeEmailPage.composeEmail(ComposeEmailPage.java:35)
-at com.epam.pageobject.test.SavingDraftTest.saveToDraft(SavingDraftTest.java:21)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method status="PASS" signature="saveToDraft()[pri:0, instance:com.epam.pageobject.test.SavingDraftTest@6536e911]" name="saveToDraft" duration-ms="6159" started-at="2020-05-19T23:59:29 MSK" finished-at="2020-05-19T23:59:35 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- saveToDraft -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.pageobject.test.SavingDraftTest@369f73a2]" name="tearDown" is-config="true" duration-ms="625" started-at="2020-05-19T23:18:24 MSK" finished-at="2020-05-19T23:18:25 MSK">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.pageobject.test.SavingDraftTest@6536e911]" name="tearDown" is-config="true" duration-ms="621" started-at="2020-05-19T23:59:35 MSK" finished-at="2020-05-19T23:59:36 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.epam.pageobject.test.SavingDraftTest -->
-      <class name="com.epam.pageobject.test.SubjectFieldDraftTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.pageobject.test.SubjectFieldDraftTest@7791a895]" name="setUp" is-config="true" duration-ms="6135" started-at="2020-05-19T23:18:50 MSK" finished-at="2020-05-19T23:18:56 MSK">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifySubjectFieldInDraft()[pri:0, instance:com.epam.pageobject.test.SubjectFieldDraftTest@7791a895]" name="verifySubjectFieldInDraft" duration-ms="5860" started-at="2020-05-19T23:18:56 MSK" finished-at="2020-05-19T23:19:02 MSK">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']"}
-  (Session info: chrome=81.0.4044.138)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EPBYMINW4406', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ALIAKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49442}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 1e6a94ac3b85e6f91d5846778a698249
-*** Element info: {Using=xpath, value=//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']"}
-  (Session info: chrome=81.0.4044.138)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EPBYMINW4406', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ALIAKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49442}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 1e6a94ac3b85e6f91d5846778a698249
-*** Element info: {Using=xpath, value=//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']}
-at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy23.click(Unknown Source)
-at com.epam.pageobject.page.ComposeEmailPage.composeEmail(ComposeEmailPage.java:35)
-at com.epam.pageobject.test.SubjectFieldDraftTest.verifySubjectFieldInDraft(SubjectFieldDraftTest.java:17)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySubjectFieldInDraft -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.pageobject.test.SubjectFieldDraftTest@7791a895]" name="tearDown" is-config="true" duration-ms="628" started-at="2020-05-19T23:19:02 MSK" finished-at="2020-05-19T23:19:03 MSK">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.epam.pageobject.test.SubjectFieldDraftTest -->
       <class name="com.epam.pageobject.test.SendEmailTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.pageobject.test.SendEmailTest@7d907bac]" name="setUp" is-config="true" duration-ms="6226" started-at="2020-05-19T23:18:37 MSK" finished-at="2020-05-19T23:18:44 MSK">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.pageobject.test.SendEmailTest@18eed359]" name="setUp" is-config="true" duration-ms="6135" started-at="2020-05-19T23:59:50 MSK" finished-at="2020-05-19T23:59:56 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="deliverEmail()[pri:0, instance:com.epam.pageobject.test.SendEmailTest@7d907bac]" name="deliverEmail" duration-ms="5820" started-at="2020-05-19T23:18:44 MSK" finished-at="2020-05-19T23:18:49 MSK">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']"}
-  (Session info: chrome=81.0.4044.138)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EPBYMINW4406', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ALIAKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49333}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 88caa2a4172ec0780a4e2cf81c2f9556
-*** Element info: {Using=xpath, value=//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']"}
-  (Session info: chrome=81.0.4044.138)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EPBYMINW4406', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ALIAKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49333}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 88caa2a4172ec0780a4e2cf81c2f9556
-*** Element info: {Using=xpath, value=//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']}
-at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy23.click(Unknown Source)
-at com.epam.pageobject.page.ComposeEmailPage.composeEmail(ComposeEmailPage.java:35)
-at com.epam.pageobject.test.SendEmailTest.deliverEmail(SendEmailTest.java:16)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method status="PASS" signature="deliverEmail()[pri:0, instance:com.epam.pageobject.test.SendEmailTest@18eed359]" name="deliverEmail" duration-ms="10493" started-at="2020-05-19T23:59:56 MSK" finished-at="2020-05-20T00:00:07 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deliverEmail -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.pageobject.test.SendEmailTest@7d907bac]" name="tearDown" is-config="true" duration-ms="613" started-at="2020-05-19T23:18:49 MSK" finished-at="2020-05-19T23:18:50 MSK">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.pageobject.test.SendEmailTest@18eed359]" name="tearDown" is-config="true" duration-ms="632" started-at="2020-05-20T00:00:07 MSK" finished-at="2020-05-20T00:00:07 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.epam.pageobject.test.SendEmailTest -->
       <class name="com.epam.pageobject.test.LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.pageobject.test.LoginTest@731a74c]" name="setUp" is-config="true" duration-ms="6272" started-at="2020-05-19T23:18:02 MSK" finished-at="2020-05-19T23:18:08 MSK">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.pageobject.test.LoginTest@6b09bb57]" name="setUp" is-config="true" duration-ms="7200" started-at="2020-05-19T23:59:11 MSK" finished-at="2020-05-19T23:59:18 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.epam.pageobject.test.LoginTest@731a74c]" name="login" duration-ms="3568" started-at="2020-05-19T23:18:08 MSK" finished-at="2020-05-19T23:18:12 MSK">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.epam.pageobject.test.LoginTest@6b09bb57]" name="login" duration-ms="3745" started-at="2020-05-19T23:59:18 MSK" finished-at="2020-05-19T23:59:22 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.pageobject.test.LoginTest@731a74c]" name="tearDown" is-config="true" duration-ms="638" started-at="2020-05-19T23:18:12 MSK" finished-at="2020-05-19T23:18:13 MSK">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.pageobject.test.LoginTest@6b09bb57]" name="tearDown" is-config="true" duration-ms="628" started-at="2020-05-19T23:59:22 MSK" finished-at="2020-05-19T23:59:23 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.epam.pageobject.test.LoginTest -->
-      <class name="com.epam.pageobject.test.BodyFieldDraftTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.pageobject.test.BodyFieldDraftTest@4b4523f8]" name="setUp" is-config="true" duration-ms="7239" started-at="2020-05-19T23:17:48 MSK" finished-at="2020-05-19T23:17:55 MSK">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyBodyFieldInDraft()[pri:0, instance:com.epam.pageobject.test.BodyFieldDraftTest@4b4523f8]" name="verifyBodyFieldInDraft" duration-ms="5798" started-at="2020-05-19T23:17:55 MSK" finished-at="2020-05-19T23:18:01 MSK">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']"}
-  (Session info: chrome=81.0.4044.138)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EPBYMINW4406', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ALIAKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65281}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 6827d0af2bb94c885fa0d13972bc1628
-*** Element info: {Using=xpath, value=//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']"}
-  (Session info: chrome=81.0.4044.138)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EPBYMINW4406', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ALIAKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65281}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 6827d0af2bb94c885fa0d13972bc1628
-*** Element info: {Using=xpath, value=//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy23.click(Unknown Source)
-at com.epam.pageobject.page.ComposeEmailPage.composeEmail(ComposeEmailPage.java:35)
-at com.epam.pageobject.test.BodyFieldDraftTest.verifyBodyFieldInDraft(BodyFieldDraftTest.java:16)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyBodyFieldInDraft -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.pageobject.test.BodyFieldDraftTest@4b4523f8]" name="tearDown" is-config="true" duration-ms="1245" started-at="2020-05-19T23:18:01 MSK" finished-at="2020-05-19T23:18:02 MSK">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.epam.pageobject.test.BodyFieldDraftTest -->
       <class name="com.epam.pageobject.test.SendDraftTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.pageobject.test.SendDraftTest@1f28c152]" name="setUp" is-config="true" duration-ms="6229" started-at="2020-05-19T23:18:25 MSK" finished-at="2020-05-19T23:18:31 MSK">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.pageobject.test.SendDraftTest@520a3426]" name="setUp" is-config="true" duration-ms="6224" started-at="2020-05-19T23:59:36 MSK" finished-at="2020-05-19T23:59:42 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="sendDraft()[pri:0, instance:com.epam.pageobject.test.SendDraftTest@1f28c152]" name="sendDraft" duration-ms="5516" started-at="2020-05-19T23:18:31 MSK" finished-at="2020-05-19T23:18:37 MSK">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']"}
-  (Session info: chrome=81.0.4044.138)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EPBYMINW4406', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ALIAKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49226}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e467e713335abb27daaa5c8c07705d6a
-*** Element info: {Using=xpath, value=//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']"}
-  (Session info: chrome=81.0.4044.138)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EPBYMINW4406', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ALIAKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49226}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e467e713335abb27daaa5c8c07705d6a
-*** Element info: {Using=xpath, value=//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']}
-at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy23.click(Unknown Source)
-at com.epam.pageobject.page.ComposeEmailPage.composeEmail(ComposeEmailPage.java:35)
-at com.epam.pageobject.test.SendDraftTest.sendDraft(SendDraftTest.java:16)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method status="PASS" signature="sendDraft()[pri:0, instance:com.epam.pageobject.test.SendDraftTest@520a3426]" name="sendDraft" duration-ms="7519" started-at="2020-05-19T23:59:42 MSK" finished-at="2020-05-19T23:59:50 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendDraft -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.pageobject.test.SendDraftTest@1f28c152]" name="tearDown" is-config="true" duration-ms="629" started-at="2020-05-19T23:18:37 MSK" finished-at="2020-05-19T23:18:37 MSK">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.pageobject.test.SendDraftTest@520a3426]" name="tearDown" is-config="true" duration-ms="633" started-at="2020-05-19T23:59:50 MSK" finished-at="2020-05-19T23:59:50 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.epam.pageobject.test.SendDraftTest -->
-      <class name="com.epam.pageobject.test.ToFieldInDraftTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.pageobject.test.ToFieldInDraftTest@3a5ed7a6]" name="setUp" is-config="true" duration-ms="6204" started-at="2020-05-19T23:19:03 MSK" finished-at="2020-05-19T23:19:09 MSK">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyToFieldInDraft()[pri:0, instance:com.epam.pageobject.test.ToFieldInDraftTest@3a5ed7a6]" name="verifyToFieldInDraft" duration-ms="5760" started-at="2020-05-19T23:19:09 MSK" finished-at="2020-05-19T23:19:15 MSK">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']"}
-  (Session info: chrome=81.0.4044.138)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EPBYMINW4406', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ALIAKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49547}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 46b52377c28f95dd9e15ca550e2ea10a
-*** Element info: {Using=xpath, value=//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']"}
-  (Session info: chrome=81.0.4044.138)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EPBYMINW4406', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ALIAKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49547}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 46b52377c28f95dd9e15ca550e2ea10a
-*** Element info: {Using=xpath, value=//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']}
-at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy23.click(Unknown Source)
-at com.epam.pageobject.page.ComposeEmailPage.composeEmail(ComposeEmailPage.java:35)
-at com.epam.pageobject.test.ToFieldInDraftTest.verifyToFieldInDraft(ToFieldInDraftTest.java:17)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyToFieldInDraft -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.pageobject.test.ToFieldInDraftTest@3a5ed7a6]" name="tearDown" is-config="true" duration-ms="621" started-at="2020-05-19T23:19:15 MSK" finished-at="2020-05-19T23:19:15 MSK">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.epam.pageobject.test.ToFieldInDraftTest -->
-    </test> <!-- C:/git/pageobject/src/main/resources -->
-  </suite> <!-- All Test Suite -->
+    </test> <!-- Smoke -->
+  </suite> <!-- Smoke Test Suite -->
 </testng-results>

@@ -16,7 +16,7 @@ public class ComposeEmailPage extends AbstractPage {
     WebElement bodyField;
     @FindBy(xpath = "//span[@class='button2 button2_base button2_hover-support js-shortcut']")
     WebElement saveButton;
-    @FindBy(xpath = "//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']")
+    @FindBy(xpath = "//button[@title='Закрыть' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']")
     WebElement closeButton;
 
     public ComposeEmailPage(WebDriver driver) {

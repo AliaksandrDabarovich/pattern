@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="88.594" tests="7" errors="0" skipped="0" failures="6">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="57.388" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="surefire.suiteXmlFiles" value="src\main\resources\testng.xml"/>
+    <property name="surefire.suiteXmlFiles" value="src\main\resources\testngSmoke.xml"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\ALIAKS~1\AppData\Local\Temp\surefire4278043639653285717\surefirebooter2196943621977214474.jar C:\Users\Aliaksandr_Dabarovic\AppData\Local\Temp\surefire4278043639653285717 2020-05-19T23-17-46_345-jvmRun1 surefire4490870706053415610tmp surefire_04546804552575812507tmp"/>
+    <property name="sun.java.command" value="C:\Users\ALIAKS~1\AppData\Local\Temp\surefire2260303502514917933\surefirebooter4877077839780898625.jar C:\Users\Aliaksandr_Dabarovic\AppData\Local\Temp\surefire2260303502514917933 2020-05-19T23-59-09_692-jvmRun1 surefire2679013781768199800tmp surefire_06806017691513633324tmp"/>
     <property name="surefire.test.class.path" value="C:\git\pageobject\target\test-classes;C:\git\pageobject\target\classes;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\apache\wicket\wicket\1.3.2\wicket-1.3.2.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\slf4j\slf4j-api\1.4.2\slf4j-api-1.4.2.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\slf4j\slf4j-log4j12\1.4.2\slf4j-log4j12-1.4.2.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\junit\junit\3.8.2\junit-3.8.2.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\mortbay\jetty\jetty\6.1.4\jetty-6.1.4.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\mortbay\jetty\servlet-api-2.5\6.1.4\servlet-api-2.5-6.1.4.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\mortbay\jetty\jetty-util\6.1.4\jetty-util-6.1.4.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\mortbay\jetty\jetty-management\6.1.4\jetty-management-6.1.4.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\mx4j\mx4j\3.0.1\mx4j-3.0.1.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\mx4j\mx4j-tools\3.0.1\mx4j-tools-3.0.1.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\io\github\bonigarcia\webdrivermanager\4.0.0\webdrivermanager-4.0.0.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0\httpclient5-5.0.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0\httpcore5-5.0.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0\httpcore5-h2-5.0.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.0.0-M4\maven-surefire-plugin-3.0.0-M4.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.0.0-M4\maven-surefire-common-3.0.0-M4.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M4\surefire-api-3.0.0-M4.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M4\surefire-logger-api-3.0.0-M4.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M4\surefire-extensions-api-3.0.0-M4.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M4\surefire-booter-3.0.0-M4.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\apache\maven\maven-toolchain\3.0-alpha-2\maven-toolchain-3.0-alpha-2.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.11.0\maven-artifact-transfer-0.11.0.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.0.1\maven-common-artifact-filters-3.0.1.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\codehaus\plexus\plexus-java\1.0.3\plexus-java-1.0.3.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\ow2\asm\asm\7.0\asm-7.0.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M9\qdox-2.0-M9.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.1.0\maven-shared-utils-3.1.0.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\Aliaksandr_Dabarovic\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Aliaksandr_Dabarovic"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\ALIAKS~1\AppData\Local\Temp\surefire4278043639653285717\surefirebooter2196943621977214474.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ALIAKS~1\AppData\Local\Temp\surefire2260303502514917933\surefirebooter4877077839780898625.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -42,7 +42,7 @@
     <property name="os.version" value="10.0"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\endorsed"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="file.encoding" value="windows-1251"/>
+    <property name="file.encoding" value="Cp1251"/>
     <property name="browser" value="chrome"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="C:\Users\Aliaksandr_Dabarovic\.m2\repository"/>
@@ -63,167 +63,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="verifyBodyFieldInDraft" classname="com.epam.pageobject.test.BodyFieldDraftTest" time="5.805">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@title=&apos;Р—Р°РєСЂС‹С‚СЊ&apos; and @class=&apos;container--2lPGK type_base--rkphf color_base--hO-yz&apos;]&quot;}&#10;  (Session info: chrome=81.0.4044.138)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;EPBYMINW4406&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ALIAKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65281}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 6827d0af2bb94c885fa0d13972bc1628&#10;*** Element info: {Using=xpath, value=//button[@title=&apos;Р—Р°РєСЂС‹С‚СЊ&apos; and @class=&apos;container--2lPGK type_base--rkphf color_base--hO-yz&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']"}
-  (Session info: chrome=81.0.4044.138)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EPBYMINW4406', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ALIAKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65281}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 6827d0af2bb94c885fa0d13972bc1628
-*** Element info: {Using=xpath, value=//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']}
-	at com.epam.pageobject.test.BodyFieldDraftTest.verifyBodyFieldInDraft(BodyFieldDraftTest.java:16)
-</failure>
-    <system-out><![CDATA[2020-05-19 23:17:48,243 main ERROR Unrecognized format specifier []
-2020-05-19 23:17:48,244 main ERROR Empty conversion specifier starting at position 20 in conversion pattern.
-2020-05-19 23:17:48,254 main ERROR Unrecognized format specifier []
-2020-05-19 23:17:48,254 main ERROR Empty conversion specifier starting at position 20 in conversion pattern.
-INFO  - WebDriverManager           - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
-INFO  - WebDriverManager           - ====> http://tiny.cc/wdm-survey <====
-INFO  - WebDriverManager           - Using chromedriver 81.0.4044.138 (since Chrome 81 is installed in your machine)
-INFO  - WebDriverManager           - Exporting webdriver.chrome.driver as C:\Users\Aliaksandr_Dabarovic\.m2\repository\webdriver\chromedriver\win32\81.0.4044.138\chromedriver.exe
-2020-05-19 23:17:57,273 INFO  [main] %1 User logged in
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 18206
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-May 19, 2020 11:17:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[1589919475.837][SEVERE]: Timed out receiving message from renderer: 0.100
-]]></system-err>
-  </testcase>
-  <testcase name="login" classname="com.epam.pageobject.test.LoginTest" time="3.569"/>
-  <testcase name="saveToDraft" classname="com.epam.pageobject.test.SavingDraftTest" time="5.654">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@title=&apos;Р—Р°РєСЂС‹С‚СЊ&apos; and @class=&apos;container--2lPGK type_base--rkphf color_base--hO-yz&apos;]&quot;}&#10;  (Session info: chrome=81.0.4044.138)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;EPBYMINW4406&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ALIAKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65500}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: d7c71e5524dc5745f8f35876d6a7732a&#10;*** Element info: {Using=xpath, value=//button[@title=&apos;Р—Р°РєСЂС‹С‚СЊ&apos; and @class=&apos;container--2lPGK type_base--rkphf color_base--hO-yz&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']"}
-  (Session info: chrome=81.0.4044.138)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EPBYMINW4406', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ALIAKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65500}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d7c71e5524dc5745f8f35876d6a7732a
-*** Element info: {Using=xpath, value=//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']}
-	at com.epam.pageobject.test.SavingDraftTest.saveToDraft(SavingDraftTest.java:21)
-</failure>
-    <system-out><![CDATA[INFO  - WebDriverManager           - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
-INFO  - WebDriverManager           - ====> http://tiny.cc/wdm-survey <====
-INFO  - WebDriverManager           - Using chromedriver 81.0.4044.138 (since Chrome 81 is installed in your machine)
-INFO  - WebDriverManager           - Exporting webdriver.chrome.driver as C:\Users\Aliaksandr_Dabarovic\.m2\repository\webdriver\chromedriver\win32\81.0.4044.138\chromedriver.exe
-2020-05-19 23:18:20,834 INFO  [main] %1 User logged in
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 20482
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-May 19, 2020 11:18:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[1589919498.719][SEVERE]: Timed out receiving message from renderer: 0.100
-]]></system-err>
-  </testcase>
-  <testcase name="sendDraft" classname="com.epam.pageobject.test.SendDraftTest" time="5.517">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@title=&apos;Р—Р°РєСЂС‹С‚СЊ&apos; and @class=&apos;container--2lPGK type_base--rkphf color_base--hO-yz&apos;]&quot;}&#10;  (Session info: chrome=81.0.4044.138)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;EPBYMINW4406&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ALIAKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49226}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: e467e713335abb27daaa5c8c07705d6a&#10;*** Element info: {Using=xpath, value=//button[@title=&apos;Р—Р°РєСЂС‹С‚СЊ&apos; and @class=&apos;container--2lPGK type_base--rkphf color_base--hO-yz&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']"}
-  (Session info: chrome=81.0.4044.138)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EPBYMINW4406', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ALIAKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49226}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e467e713335abb27daaa5c8c07705d6a
-*** Element info: {Using=xpath, value=//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']}
-	at com.epam.pageobject.test.SendDraftTest.sendDraft(SendDraftTest.java:16)
-</failure>
-    <system-out><![CDATA[INFO  - WebDriverManager           - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
-INFO  - WebDriverManager           - ====> http://tiny.cc/wdm-survey <====
-INFO  - WebDriverManager           - Using chromedriver 81.0.4044.138 (since Chrome 81 is installed in your machine)
-INFO  - WebDriverManager           - Exporting webdriver.chrome.driver as C:\Users\Aliaksandr_Dabarovic\.m2\repository\webdriver\chromedriver\win32\81.0.4044.138\chromedriver.exe
-2020-05-19 23:18:33,270 INFO  [main] %1 User logged in
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 13127
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-May 19, 2020 11:18:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="deliverEmail" classname="com.epam.pageobject.test.SendEmailTest" time="5.821">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@title=&apos;Р—Р°РєСЂС‹С‚СЊ&apos; and @class=&apos;container--2lPGK type_base--rkphf color_base--hO-yz&apos;]&quot;}&#10;  (Session info: chrome=81.0.4044.138)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;EPBYMINW4406&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ALIAKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49333}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 88caa2a4172ec0780a4e2cf81c2f9556&#10;*** Element info: {Using=xpath, value=//button[@title=&apos;Р—Р°РєСЂС‹С‚СЊ&apos; and @class=&apos;container--2lPGK type_base--rkphf color_base--hO-yz&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']"}
-  (Session info: chrome=81.0.4044.138)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EPBYMINW4406', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ALIAKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49333}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 88caa2a4172ec0780a4e2cf81c2f9556
-*** Element info: {Using=xpath, value=//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']}
-	at com.epam.pageobject.test.SendEmailTest.deliverEmail(SendEmailTest.java:16)
-</failure>
-    <system-out><![CDATA[INFO  - WebDriverManager           - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
-INFO  - WebDriverManager           - ====> http://tiny.cc/wdm-survey <====
-INFO  - WebDriverManager           - Using chromedriver 81.0.4044.138 (since Chrome 81 is installed in your machine)
-INFO  - WebDriverManager           - Exporting webdriver.chrome.driver as C:\Users\Aliaksandr_Dabarovic\.m2\repository\webdriver\chromedriver\win32\81.0.4044.138\chromedriver.exe
-2020-05-19 23:18:45,837 INFO  [main] %1 User logged in
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 32862
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-May 19, 2020 11:18:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="verifySubjectFieldInDraft" classname="com.epam.pageobject.test.SubjectFieldDraftTest" time="5.861">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@title=&apos;Р—Р°РєСЂС‹С‚СЊ&apos; and @class=&apos;container--2lPGK type_base--rkphf color_base--hO-yz&apos;]&quot;}&#10;  (Session info: chrome=81.0.4044.138)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;EPBYMINW4406&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ALIAKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49442}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 1e6a94ac3b85e6f91d5846778a698249&#10;*** Element info: {Using=xpath, value=//button[@title=&apos;Р—Р°РєСЂС‹С‚СЊ&apos; and @class=&apos;container--2lPGK type_base--rkphf color_base--hO-yz&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']"}
-  (Session info: chrome=81.0.4044.138)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EPBYMINW4406', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ALIAKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49442}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 1e6a94ac3b85e6f91d5846778a698249
-*** Element info: {Using=xpath, value=//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']}
-	at com.epam.pageobject.test.SubjectFieldDraftTest.verifySubjectFieldInDraft(SubjectFieldDraftTest.java:17)
-</failure>
-    <system-out><![CDATA[INFO  - WebDriverManager           - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
-INFO  - WebDriverManager           - ====> http://tiny.cc/wdm-survey <====
-INFO  - WebDriverManager           - Using chromedriver 81.0.4044.138 (since Chrome 81 is installed in your machine)
-INFO  - WebDriverManager           - Exporting webdriver.chrome.driver as C:\Users\Aliaksandr_Dabarovic\.m2\repository\webdriver\chromedriver\win32\81.0.4044.138\chromedriver.exe
-2020-05-19 23:18:58,398 INFO  [main] %1 User logged in
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 10804
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-May 19, 2020 11:18:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="verifyToFieldInDraft" classname="com.epam.pageobject.test.ToFieldInDraftTest" time="5.761">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@title=&apos;Р—Р°РєСЂС‹С‚СЊ&apos; and @class=&apos;container--2lPGK type_base--rkphf color_base--hO-yz&apos;]&quot;}&#10;  (Session info: chrome=81.0.4044.138)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;EPBYMINW4406&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ALIAKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49547}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 46b52377c28f95dd9e15ca550e2ea10a&#10;*** Element info: {Using=xpath, value=//button[@title=&apos;Р—Р°РєСЂС‹С‚СЊ&apos; and @class=&apos;container--2lPGK type_base--rkphf color_base--hO-yz&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']"}
-  (Session info: chrome=81.0.4044.138)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EPBYMINW4406', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ALIAKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49547}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 46b52377c28f95dd9e15ca550e2ea10a
-*** Element info: {Using=xpath, value=//button[@title='Р—Р°РєСЂС‹С‚СЊ' and @class='container--2lPGK type_base--rkphf color_base--hO-yz']}
-	at com.epam.pageobject.test.ToFieldInDraftTest.verifyToFieldInDraft(ToFieldInDraftTest.java:17)
-</failure>
-    <system-out><![CDATA[INFO  - WebDriverManager           - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
-INFO  - WebDriverManager           - ====> http://tiny.cc/wdm-survey <====
-INFO  - WebDriverManager           - Using chromedriver 81.0.4044.138 (since Chrome 81 is installed in your machine)
-INFO  - WebDriverManager           - Exporting webdriver.chrome.driver as C:\Users\Aliaksandr_Dabarovic\.m2\repository\webdriver\chromedriver\win32\81.0.4044.138\chromedriver.exe
-2020-05-19 23:19:11,118 INFO  [main] %1 User logged in
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 2712
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-May 19, 2020 11:19:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
+  <testcase name="login" classname="com.epam.pageobject.test.LoginTest" time="3.747"/>
+  <testcase name="saveToDraft" classname="com.epam.pageobject.test.SavingDraftTest" time="6.158"/>
+  <testcase name="sendDraft" classname="com.epam.pageobject.test.SendDraftTest" time="7.518"/>
+  <testcase name="deliverEmail" classname="com.epam.pageobject.test.SendEmailTest" time="10.494"/>
 </testsuite>

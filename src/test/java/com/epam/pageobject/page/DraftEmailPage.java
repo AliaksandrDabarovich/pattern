@@ -14,7 +14,7 @@ public class DraftEmailPage extends AbstractPage {
     @FindBy(xpath = "//div[contains (@class,'class')]/div[1]")
     WebElement bodyFieldDraft;
 
-    @FindBy(xpath = "//span[text()='РћС‚РїСЂР°РІРёС‚СЊ']")
+    @FindBy(xpath = "//span[text()='Отправить']")
     WebElement sendButton;
 
 

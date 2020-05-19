@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test name="C:/git/pageobject/src/main/resources">
+    <test name="Regression Test">
        <packages>
            <package name="com.epam.pageobject.test"></package>
        </packages>

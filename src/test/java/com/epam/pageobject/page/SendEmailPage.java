@@ -8,7 +8,7 @@ public class SendEmailPage extends AbstractPage {
     @FindBy(xpath = "//span[@class='ll-sj__normal' and text()='Self: WebDriver']")
     WebElement sentEmailTitle;
 
-    @FindBy(xpath = "//a[@title='РІС‹С…РѕРґ']")
+    @FindBy(xpath = "//a[@title='выход']")
     WebElement logOutButton;
 
 

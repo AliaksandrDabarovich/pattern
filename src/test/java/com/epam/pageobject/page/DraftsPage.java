@@ -9,9 +9,9 @@ public class DraftsPage extends AbstractPage {
     WebElement draftName;
     @FindBy(xpath = "//div[@class='llc__item llc__item_correspondent']//span[@title='aliaksandr.yarkiy@mail.ru']")
     WebElement draftLink;
-    @FindBy(xpath = "//div[text()='Р§РµСЂРЅРѕРІРёРєРё']")
+    @FindBy(xpath = "//div[text()='Черновики']")
     WebElement draftPageLoading;
-    @FindBy(xpath = "//span[@class='octopus__title' and text()='РЈ РІР°СЃ РЅРµС‚ РЅРµР·Р°РєРѕРЅС‡РµРЅРЅС‹С…']")
+    @FindBy(xpath = "//span[@class='octopus__title' and text()='У вас нет незаконченных']")
     WebElement draftNameAbsence;
     @FindBy(xpath = "//a[@href='/sent/']")
     WebElement sentFolderButton;
