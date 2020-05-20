@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: TestSuite
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 13.972 s <<< FAILURE! - in TestSuite
-login(com.epam.pageobject.test.LoginTest)  Time elapsed: 5.342 s  <<< FAILURE!
-java.lang.AssertionError: User is not logged in expected [false] but found [true]
-	at com.epam.pageobject.test.LoginTest.login(LoginTest.java:17)
-

@@ -2,3 +2,5 @@
 *.iml
 *.iws
 commands.txt
+target/
+log/
