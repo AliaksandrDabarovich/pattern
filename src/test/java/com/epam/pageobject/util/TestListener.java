@@ -6,7 +6,10 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.testng.ITestContext;
 import org.testng.ITestListener;
+import org.testng.ITestResult;
+
 import java.io.File;
 import java.io.IOException;
 import java.time.ZonedDateTime;
@@ -15,25 +18,25 @@ import java.time.format.DateTimeFormatter;
 
 public class TestListener implements ITestListener {
     private Logger log = LogManager.getRootLogger();
-    public void onTestStart (ITestListener iTestListener){
+    public void onTestStart (ITestResult result){
 
     }
-    public void onTestSuccess(ITestListener iTestListener){
+    public void onTestSuccess(ITestResult result){
 
     }
-    public void onTestFailure (ITestListener iTestListener){
+    public void onTestFailure (ITestResult result){
         saveScreenshot();
     }
-    public void onTestSkipped(ITestListener iTestListener){
+    public void onTestSkipped(ITestResult result){
 
     }
-    public void onTestFailedButWithinSuccessPercentage(ITestListener iTestListener){
+    public void onTestFailedButWithinSuccessPercentage(ITestResult result){
 
     }
-    public void onStart(ITestListener iTestListener){
+    public void onStart(ITestContext context){
 
     }
-    public void onFinish(ITestListener iTestListener){
+    public void onFinish(ITestContext context){
 
     }
     private void saveScreenshot(){

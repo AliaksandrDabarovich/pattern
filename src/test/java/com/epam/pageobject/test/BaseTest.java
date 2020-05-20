@@ -24,7 +24,6 @@ public class BaseTest {
         driver = DriverSingleton.getDriver();
 //        driver = new ChromeDriver();
         driver.get(webUrl);
-        driver.manage().window().maximize();
     }
 
     @AfterClass (alwaysRun = true)
