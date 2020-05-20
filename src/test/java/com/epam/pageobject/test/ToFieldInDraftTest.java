@@ -9,13 +9,13 @@ import org.testng.annotations.Test;
 public class ToFieldInDraftTest extends BaseTest {
 
     @Test
-    public void verifyToFieldInDraft () {
+    public void verifyToFieldInDraft() {
         User testUser = UserCreator.withCredentialsFromProperty();
         EmailLoginPage emailLoginPage = new EmailLoginPage(driver);
         EmailPage emailPage = emailLoginPage.inputCredentials(testUser);
         ComposeEmailPage composeEmailPage = emailPage.composeEmailFromEmailPage();
         EmailPage emailPageAfterCompose = composeEmailPage.composeEmail(testUser);
-        DraftsPage draftsPage= emailPageAfterCompose.openDraftsPageFromEmailPage();
+        DraftsPage draftsPage = emailPageAfterCompose.openDraftsPageFromEmailPage();
         DraftEmailPage draftEmailPage = draftsPage.openDraftEmailPage();
         Assert.assertEquals(draftEmailPage.checkToField().getText(), testUser.getUsername(), "Incorrect Email");
 

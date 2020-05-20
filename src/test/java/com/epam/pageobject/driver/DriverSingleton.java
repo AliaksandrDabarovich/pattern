@@ -7,13 +7,15 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class DriverSingleton {
     private static WebDriver driver;
-    private DriverSingleton(){}
 
-    public static WebDriver getDriver(){
+    private DriverSingleton() {
+    }
+
+    public static WebDriver getDriver() {
         if (null == driver) {
-            switch (System.getProperty("browser")){
+            switch (System.getProperty("browser")) {
                 case "firefox": {
-                   WebDriverManager.firefoxdriver().setup();
+                    WebDriverManager.firefoxdriver().setup();
                     driver = new FirefoxDriver();
                 }
                 default: {
@@ -23,10 +25,10 @@ public class DriverSingleton {
             }
             driver.manage().window().maximize();
         }
-        return  driver;
+        return driver;
     }
 
-    public static void closeDriver(){
+    public static void closeDriver() {
         driver.quit();
         driver = null;
     }

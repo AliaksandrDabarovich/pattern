@@ -1,26 +1,29 @@
 package com.epam.pageobject.model;
 
-import javax.jws.soap.SOAPBinding;
 import java.util.Objects;
 
 public class User {
     private String username;
     private String password;
 
-    public User (String username, String password){
+    public User(String username, String password) {
         this.username = username;
         this.password = password;
     }
-    public String getUsername (){
+
+    public String getUsername() {
         return username;
     }
-    public void setUsername (){
+
+    public void setUsername() {
         this.username = username;
     }
-    public String getPassword () {
+
+    public String getPassword() {
         return password;
     }
-    public void setPassword (){
+
+    public void setPassword() {
         this.password = password;
     }
 

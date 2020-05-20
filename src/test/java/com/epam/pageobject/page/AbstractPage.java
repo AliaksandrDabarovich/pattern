@@ -19,7 +19,6 @@ public abstract class AbstractPage {
     protected final String BODY = "Text for test";
 
 
-
     protected AbstractPage(WebDriver driver) {
 
         PageFactory.initElements(driver, this);

@@ -18,43 +18,51 @@ import java.time.format.DateTimeFormatter;
 
 public class TestListener implements ITestListener {
     private Logger log = LogManager.getRootLogger();
-    public void onTestStart (ITestResult result){
+
+    public void onTestStart(ITestResult result) {
 
     }
-    public void onTestSuccess(ITestResult result){
+
+    public void onTestSuccess(ITestResult result) {
 
     }
-    public void onTestFailure (ITestResult result){
+
+    public void onTestFailure(ITestResult result) {
         saveScreenshot();
     }
-    public void onTestSkipped(ITestResult result){
+
+    public void onTestSkipped(ITestResult result) {
 
     }
-    public void onTestFailedButWithinSuccessPercentage(ITestResult result){
+
+    public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
 
     }
-    public void onStart(ITestContext context){
+
+    public void onStart(ITestContext context) {
 
     }
-    public void onFinish(ITestContext context){
+
+    public void onFinish(ITestContext context) {
 
     }
-    private void saveScreenshot(){
+
+    private void saveScreenshot() {
         File screenCapture = ((TakesScreenshot) DriverSingleton.getDriver())
                 .getScreenshotAs(OutputType.FILE);
-        try{
-            FileUtils.copyFile(screenCapture, new File (
+        try {
+            FileUtils.copyFile(screenCapture, new File(
                     ".//target/screenshots/"
                             + getCurrentTimeAsString() +
                             ".png"));
         } catch (IOException e) {
-            log.error("Failed to save screenshot: "+ e.getLocalizedMessage());
+            log.error("Failed to save screenshot: " + e.getLocalizedMessage());
             e.printStackTrace();
             System.out.println(e.getMessage());
         }
     }
 
-    private String getCurrentTimeAsString (){
+    private String getCurrentTimeAsString() {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("uuuu-MM-dd_HH-mm-ss");
         return ZonedDateTime.now().format(formatter);
     }
