@@ -72,10 +72,6 @@ public abstract class AbstractPage {
         action.click(element).sendKeys(string).perform();
     }
 
-//    public String getEmail() {
-//        return EMAIL;
-//    }
-
     public String getSubject() {
         return SUBJECT;
     }
@@ -83,10 +79,5 @@ public abstract class AbstractPage {
     public String getBody() {
         return BODY;
     }
-
-//    public String getPassword() {
-//        return PASSWORD;
-//    }
-
 
 }

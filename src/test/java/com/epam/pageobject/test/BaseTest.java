@@ -16,7 +16,6 @@ public class BaseTest {
     protected String webUrl = "http://mail.ru";
 
 
-
     @BeforeClass
     public void setUp() {
 
@@ -25,11 +24,10 @@ public class BaseTest {
         driver.get(webUrl);
     }
 
-    @AfterClass (alwaysRun = true)
+    @AfterClass(alwaysRun = true)
     public void tearDown() {
         DriverSingleton.closeDriver();
 //        driver.quit();
 //        driver = null;
     }
-
 }
