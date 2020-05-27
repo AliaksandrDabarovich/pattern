@@ -2,6 +2,7 @@ package com.epam.pageobject.page;
 
 
 import com.epam.pageobject.model.User;
+import com.epam.pageobject.util.JSUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -29,13 +30,13 @@ public class EmailLoginPage extends AbstractPage {
     public EmailPage inputCredentials(User user) {
 
         waitForVisibility(inputEmailField);
-        highlightElement(driver, inputEmailField);
+        JSUtils.highlightElement(driver, inputEmailField);
         performActionSendkeys(driver, inputEmailField, user.getUsername());
         inputPasswordButton.click();
         waitForVisibility(inputPasswordField);
-        highlightElement(driver, inputPasswordField);
+        JSUtils.highlightElement(driver, inputPasswordField);
         inputPasswordField.sendKeys(user.getPassword());
-        clickJavascript(driver, inputEnterButton);
+        JSUtils.clickJavascript(driver, inputEnterButton);
         logger.info("User logged in");
         return new EmailPage(driver);
     }

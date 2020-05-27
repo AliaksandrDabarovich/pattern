@@ -30,18 +30,18 @@ public class DraftsPage extends AbstractPage {
     }
 
     public DraftEmailPage openDraftEmailPage() {
-        waitTillElementClickable(draftLink);
+        waitElement(draftLink);
         waitForVisibility(draftLink).click();
         return new DraftEmailPage(driver);
     }
 
     public WebElement verifyDraftSend() {
-        waitTillElementClickable(draftPageLoading);
+        waitElement(draftPageLoading);
         return draftNameAbsence;
     }
 
     public SendEmailPage openSendEmailPage() {
-        waitTillElementClickable(sentFolderButton);
+        waitElement(sentFolderButton);
         waitForVisibility(sentFolderButton).click();
         return new SendEmailPage(driver);
     }

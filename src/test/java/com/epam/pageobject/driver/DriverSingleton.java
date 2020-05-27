@@ -20,11 +20,13 @@ public class DriverSingleton {
 
                     break;
                 }
-                default: {
-//                    WebDriverManager.chromedriver().setup();
+                case "chrome": {
+//                                        WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver();
-
                     break;
+                }
+                default: {
+                    throw new IllegalArgumentException("Input correct driver");
                 }
             }
             driver.manage().window().maximize();

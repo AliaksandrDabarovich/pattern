@@ -19,10 +19,12 @@ public class DraftEmailPage extends AbstractPage {
 
 
     public DraftEmailPage(WebDriver driver) {
+
         super(driver);
     }
 
     public WebElement checkToField() {
+
         return waitForVisibility(toFieldDraft);
     }
 

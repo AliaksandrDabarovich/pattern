@@ -13,6 +13,12 @@ public class EmailPage extends AbstractPage {
     private WebElement composeButton;
     @FindBy(xpath = "//a[@href='/drafts/']")
     private WebElement draftsButton;
+    @FindBy(xpath = "//div[contains(@class, 'compose-dropdown')]")
+    private WebElement actionButton;
+
+    @FindBy(xpath = "//span[contains(text(),'Написать себе')]")
+    WebElement letterToHimself;
+
 
     public EmailPage(WebDriver driver) {
         super(driver);
@@ -31,4 +37,24 @@ public class EmailPage extends AbstractPage {
         moveClick(driver, draftsButton);
         return new DraftsPage(driver);
     }
+
+    public ActionPage openAction() {
+        waitForVisibility(actionButton);
+        actionButton.click();
+        ActionFactory actionFactory = new ProposalCallFactory();
+        Action action = actionFactory.createAction();
+        action.act();
+        waitForVisibility(letterToHimself).click();
+        return new ActionPage(driver);
+    }
+    public ActionPage openDecoratorAction() {
+        waitForVisibility(actionButton);
+        actionButton.click();
+        Action action = new ActionDecorator(new CustomAction());
+        action.act();
+        waitForVisibility(letterToHimself).click();
+        return new ActionPage(driver);
+    }
+
+
 }

@@ -20,14 +20,11 @@ public class BaseTest {
     public void setUp() {
 
         driver = DriverSingleton.getDriver();
-//        driver = new ChromeDriver();
         driver.get(webUrl);
     }
 
     @AfterClass(alwaysRun = true)
     public void tearDown() {
         DriverSingleton.closeDriver();
-//        driver.quit();
-//        driver = null;
     }
 }
