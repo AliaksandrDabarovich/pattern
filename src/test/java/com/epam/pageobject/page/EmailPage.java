@@ -50,7 +50,7 @@ public class EmailPage extends AbstractPage {
     public ActionPage openDecoratorAction() {
         waitForVisibility(actionButton);
         actionButton.click();
-        Action action = new ActionDecorator(new CustomAction());
+        Action action = new CustomAction(new ActionImp());
         action.act();
         waitForVisibility(letterToHimself).click();
         return new ActionPage(driver);

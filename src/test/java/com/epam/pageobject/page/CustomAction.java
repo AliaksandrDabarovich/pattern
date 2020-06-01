@@ -1,9 +1,13 @@
 package com.epam.pageobject.page;
 
-public class CustomAction implements Action {
-    @Override
-    public void act() {
+public class CustomAction extends ActionDecorator {
 
-        log.info("CustomAction is started");
+    public CustomAction(Action action) {
+        super(action);
+    }
+
+    public void act() {
+        super.act();
+        log.info("Decorator works");
     }
 }
